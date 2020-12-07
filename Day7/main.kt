@@ -48,7 +48,7 @@ fun Part2(data: List<String>): Int {
 }
 
 fun main(args: Array<String>) {
-    val input = File({}::class.java.getResource("/input.txt").path).readLines()
+    val input = File("input.txt").readLines()
     println("Part 1: ${Part1(input)}")
     println("Part 2: ${Part2(input)}")
 }
